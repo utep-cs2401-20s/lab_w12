@@ -88,6 +88,7 @@ class myBinarySearchTreeNode{
     //the search value cannot be found in this tree
     if ( L==0 && R==0 )
       return -1;
+    //return the depth we found the value in the tree
     return Math.max(L,R);
   }
 
